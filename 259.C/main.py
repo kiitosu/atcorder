@@ -22,7 +22,7 @@ count = 0
 char = 0
 for i in range(len(target)):
     if char == 0:
-        char = src[i]
+        char = target[i]
         count += 1
     elif target[i-1] == target[i]:
         count += 1
